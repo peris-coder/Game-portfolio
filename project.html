@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Projects</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2f543d77e.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #eee;
+      font-family: 'Inter', sans-serif;
+    }
+
+    h1, h2, h5 {
+      font-family: 'Orbitron', sans-serif;
+      color: #8a4fff;
+    }
+
+    .navbar {
+      background-color: #000;
+    }
+
+    .navbar-brand {
+      font-family: 'Orbitron', sans-serif;
+      color: #8a4fff !important;
+    }
+
+    .nav-link {
+      color: #ccc !important;
+    }
+
+    .nav-link:hover {
+      color: #fff !important;
+    }
+
+    .projects-section {
+      padding: 80px 20px;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      border: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(138, 79, 255, 0.3);
+    }
+
+    .card-title {
+      color: #8a4fff;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 2px solid #8a4fff;
+    }
+
+    .btn-demo {
+      background-color: #8a4fff;
+      color: #fff;
+      border: none;
+      margin-top: 10px;
+    }
+
+    .btn-demo:hover {
+      background-color: #6a32d2;
+    }
+     .offcanvas {
+      background-color: #000 !important;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Peris Njoroge</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+  <section class="projects-section text-center">
+    <div class="container">
+      <h2 class="mb-5"> My Game Projects</h2>
+      <div class="row g-4">
+
+        
+        <div class="col-md-4" data-aos="fade-up">
+          <div class="card text-white">
+            <img src="game 1.webp" alt="Game 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pubg Mobile</h5>
+              <p class="card-text">Choice of over 1 Billion Players.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.tencent.ig&pcampaignid=web_share" class="btn btn-demo" target="_blank">Play Demo</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="card text-white">
+            <img src="game 3.webp" alt="Game 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Car Mania</h5>
+              <p class="card-text">A car adventure with various locations and competitions built in Godot Engine.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.ea.games.r3_row&pcampaignid=web_share" class="btn btn-demo" target="_blank">Play Demo</a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card text-white">
+            <img src="game 4.jpg" alt="Game 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">FIFA </h5>
+              <p class="card-text">Soccer games put you on the field with pro players.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.ea.gp.tacticalfootball&pcampaignid=web_share" class="btn btn-demo" target="_blank">Play Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="card text-white">
+            <img src="game 5.webp" alt="Game 4" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Call of Duty</h5>
+              <p class="card-text">A first-person shooter game with intense multiplayer battles.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&pcampaignid=web_share" class="btn btn-demo" target="_blank">Play Demo</a>
+            </div>
+          </div>
+        </div>
+          
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card text-white mt-4">
+            <img src="game 8.jpg" alt="Game 5" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">My Talking Angela</h5>
+              <p class="card-text">Start a barand new adventure with a new BFF.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangelafree&pcampaignid=web_share" class="btn btn-demo" target="_blank">Play Demo</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card text-white mt-4">
+            <img src="game 7.webp" alt="Game 6" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Minecraft</h5>
+              <p class="card-text">A sandbox game that allows players to build and explore virtual worlds.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&pcampaignid=web_share" class="btn btn-demo" target="_blank">Play Demo</a>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+</body>
+</html>
